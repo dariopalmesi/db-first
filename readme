@@ -2,17 +2,17 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 concessionario
 
 
-- ID |
-- Marca
-- Modello
-- Anno
-- Km_percorsi
-- Alimentazione
-- Cambio
-- Colore
-- Prezzo
-- Numero_porte
-- Condizioni
-- Cilindrata
-- Potenza
-- Stato_vendita
+- ID | BIGINT - AUTO-INCREMENTE - PRIMARY-KEY (UNIQUE, NOT NULL)
+- Marca | CHAR(50) - NOT NULL
+- Modello | VARCHAR(200) - NULL
+- Anno | YEAR - NOT NULL
+- Km_percorsi | SMALLINT - NOT NULL
+- Alimentazione | CHAR(30) - DEFAULT(BENZINA)
+- Cambio | CHAR(50) - NULL
+- Colore | VARCHAR(200) - NOT NULL
+- Prezzo | MEDIUMINT - NOT NULL
+- Numero_porte | TINYINT - NULL
+- Condizioni | VARCHAR(200) - NOT NULL
+- Cilindrata | SMALLINT - NULL
+- Potenza | SMALLINT - NULL
+- Stato_vendita | TINYINT DEFAULT(0)
