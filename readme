@@ -1,0 +1,18 @@
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un
+concessionario
+
+
+- ID |
+- Marca
+- Modello
+- Anno
+- Km_percorsi
+- Alimentazione
+- Cambio
+- Colore
+- Prezzo
+- Numero_porte
+- Condizioni
+- Cilindrata
+- Potenza
+- Stato_vendita
